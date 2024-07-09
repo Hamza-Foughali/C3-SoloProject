@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Epic Quotes</title>
+    <link rel="stylesheet" href="quote.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <h1>Epic Quotes</h1>
+        <p>My supercool quote</p>
+      </header>
+      <nav class="navbar">
+        <a href="" class="left">Home</a>
+        <a href="" class="right">Option</a>
+      </nav>
+    </div>
+    <div class="row">
+      <section class="side">
+        <h2>Add your Quote!</h2>
+        <div class="input-container">
+          <input
+            type="text"
+            id="quoteInput"
+            placeholder="Enter your quote here"
+          />
+          <button onclick="handleAddQuote()">Add Quote</button>
+        </div>
+      </section>
+
+      <section class="search">
+        <div class="search-container">
+          <input type="text" placeholder="search here !" />
+        </div>
+      </section>
+
+      <main class="main" id="mainQuote">
+        <h2>Quotes</h2>
+      </main>
+    </div>
+
+    <script src="quote.js"></script>
+    <script src="quote2.js"></script>
+  </body>
+</html>
